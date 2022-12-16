@@ -23,7 +23,7 @@
     sum=sum+i;
     i++;
     }
-    if(sum==num)
+    if(sum==num && sum != 0)
     Console.Write(" " + num);
     }
     Console.ReadKey();
